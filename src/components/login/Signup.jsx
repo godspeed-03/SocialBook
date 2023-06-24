@@ -43,7 +43,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="container">
+    <div className="containerl">
       <h2>Sign up to Social Book</h2>
       <img src={sitelogo} alt="site-logo" />
       <h1>Sign Up</h1>
