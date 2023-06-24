@@ -1,0 +1,415 @@
+:root {
+  --bg: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:bg;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+hr {
+  width: 95%;
+  margin: auto;
+  height: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 70px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.logo {
+  height: 70px;
+  width: 200px;
+  margin: 4px;
+  position: relative;
+  animation: slideIn 3s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+@keyframes slideIn {
+  from {
+    left: -250px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.search-input {
+  padding: 8px 0 8px 8px;
+  margin: 4px 0 4px 4px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #9f9a9a;
+  border: none;
+  color: black;
+}
+
+.search-logo {
+  position: relative;
+  left: -10px;
+  height: 31px;
+  padding: 8px 8px 8px 0;
+  margin: 4px 4px 4px 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #9f9a9a;
+
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 6px;
+  list-style-type: none;
+}
+
+.social-icons li {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.social-icons img {
+  height: 25px;
+  border-radius: 100%;
+}
+
+.account {
+  padding: 4px;
+  margin: 4px;
+  background-color: #9f9a9a;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.ui {
+  display: flex;
+  margin-top: 15px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color:#eacccc;
+  flex: 0.25;
+  margin-left: 20px;
+  margin-right: 25px;
+  height: 33rem;
+  width: 18rem;
+  border-radius: 10px;
+  animation: slideIn 3s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+@keyframes slideIn {
+  from {
+    left: -250px;
+  }
+  to {
+    left: 0;
+  }
+}
+.site-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin: 10px auto 10px auto;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px;
+  margin: 4px auto 4px 50px;
+}
+
+.icon {
+  margin: 20px 10px 15px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.shortcut_title {
+  margin: 2px;
+  padding: 8px;
+}
+
+.mainBody {
+  background-color: bg;
+  flex: 0.5;
+  margin-left: 350px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.story {
+  margin: 2px;
+  display: flex;
+}
+
+.story ul {
+  list-style-type: none;
+}
+
+.story-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 3px;
+  padding: 2px;
+  border-color: aqua;
+  border-width: 3px;
+  border-style: dashed;
+  
+}
+
+
+.userpost {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts {
+  margin: 10px 5px 5px 5px;
+  background-color: #eacccc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #9f9a9a;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userdata {
+  display: flex;
+  align-items: center;
+
+}
+
+.user-img {
+  height: 50px;
+  width: 50px;
+}
+.postdata {
+  margin-left: 10px;
+}
+
+.postdata a{
+  text-decoration: none;
+}
+.postdata a:hover {
+  text-decoration: underline;
+}
+
+.username {
+  font-weight: bold;
+  margin: 5px;
+}
+
+
+
+.location {
+  color: gray;
+  margin-left: 5px;
+}
+
+.addfriend-img {
+  margin-right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.caption {
+  margin: 10px auto 5px 15px;
+}
+
+.post-img {
+  object-fit: contain;
+  margin: 10px 110px 10px 110px;
+  height: 30rem;
+  width: 30rem;
+
+}
+
+.response {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2px 10px 5px 20px;
+}
+
+.likes,
+.comments {
+  text-align: center;
+  align-items: center;
+  margin: 5px 10px 5px 10px;
+}
+
+.like-img,
+.comment-img {
+
+  height: 20px;
+  width: 20px;
+}
+
+.userside {
+  width: 100%;
+  display: flex;
+  flex: 0.25;
+  flex-direction: column;
+}
+
+
+.userprofiledata {
+  margin: 30px;
+  width: 400px;
+  background-color: #eacccc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 10rem;
+  position: relative;
+  animation: slideout 3s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+@keyframes slideout {
+  from {
+   right: -1000px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friend {
+  color: gray;
+  font-size: 15px;
+}
+
+.setting {
+  height: 30px;
+  width: 30px;
+  margin-right: 30px;
+}
+
+.userbio {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.connection {
+  margin: 50px;
+  background-color: #eacccc;
+  border-radius: 10px;
+  position: relative;
+  animation: slideout 3s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+
+.connection-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.userprofile {
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
+  margin: 10px 5px 10px 30px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.container{
+  margin: 50px;
+  background-color: #eacccc;
+  border-radius: 10px;
+  position: relative;
+  animation: slideout 3s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content p {
+  margin: 10px 20px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  margin: 10px auto;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

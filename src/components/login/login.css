@@ -1,0 +1,39 @@
+body {
+    background-color: blanchedalmond;
+  }
+
+  .container {
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    margin: 90px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  input {
+    display: block;
+    width: 18rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin: auto;
+    border-radius: 10px;
+    width: 5rem;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
