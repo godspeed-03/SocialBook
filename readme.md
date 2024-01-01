@@ -2,11 +2,17 @@
 
 This repository contains the code for a user profile page of a fictional social media platform called SocialBook. The user profile page is designed using HTML, CSS, and JavaScript.
 
-## Preview
-
+# Preview
+### Login Page
 ![Login Page](./src/assets/pre1.png)
+
+### Sign-up Page
 ![Sign-up Page](./src/assets/pre2.png)
+
+### Main Page
 ![Main Page](./src/assets/pre3.png)
+
+### User PRofile Page
 ![User Profile Page](./src/assets/pre4.png)
 
 ## Getting Started
