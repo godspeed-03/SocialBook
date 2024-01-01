@@ -5,9 +5,9 @@ This repository contains the code for a user profile page of a fictional social 
 ## Preview
 
 ![Login Page](./src/assets/pre1.png)
-![Sign-up Page](/assets/pre2.png)
-![Main Page](/assets/pre3.png)
-![User Profile Page](/assets/pre4.png)
+![Sign-up Page](./src/assets/pre2.png)
+![Main Page](./src/assets/pre3.png)
+![User Profile Page](./src/assets/pre4.png)
 
 ## Getting Started
 
